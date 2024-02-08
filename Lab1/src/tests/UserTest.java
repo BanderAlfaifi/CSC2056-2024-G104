@@ -51,7 +51,15 @@ public class UserTest {
 		else 
 		    System.out.println(TestUtils.TEXT_COLOR_RED + "TC5-getMobile_number-FAILED" + TestUtils.TEXT_COLOR_RESET);
 
+		/* Using assert */
 		
+		assert testUser.getUsername() == test_username;
+		assert testUser.getPassword() == test_password;
+		assert testUserForAutoTest.getFirst_name().equals(test_first_name);
+		assert testUserForAutoTest.getLast_name().equals(test_last_name);
+		assert testUserForAutoTest.getMobile_number().equals(test_mobile_number);
+				
+	    	System.out.println("All Java assertins have passed.");
 	}
 	
 	public static void main(String[] args) {
