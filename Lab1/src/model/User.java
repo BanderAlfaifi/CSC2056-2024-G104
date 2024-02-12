@@ -50,8 +50,12 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", first_name=" + first_name + ", last_name="
-				+ last_name + ", mobile_number=" + mobile_number + "]";
+		return String.format("%-25s| %-15s| %-15s| %-15s| %-15s", 
+				this.username,
+				this.password,
+	            this.first_name, 
+	            this.last_name, 
+	            this.mobile_number);
 	}
 	
 	
