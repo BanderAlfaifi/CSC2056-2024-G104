@@ -7,8 +7,6 @@ import utils.TestUtils;
 
 public class AccountTest {
 
-	
-	
 	public static void testConstructor() {
 		// manual testing
 		Date testDate = new Date();
@@ -58,12 +56,7 @@ public class AccountTest {
 		
 	}
 	
-	
-	
-	
-	
-	
-	
+
 	public static void main(String[] args) {
 		testConstructor();
 	}
