@@ -1,10 +1,8 @@
 package datautilities;
 
 import static org.junit.Assert.*;
-
 import org.jfree.data.DataUtilities;
 import org.jfree.data.DefaultKeyedValues;
-import org.jfree.data.DefaultKeyedValues2D;
 import org.jfree.data.KeyedValues;
 import org.junit.Before;
 import org.junit.Test;
@@ -64,6 +62,8 @@ public class TestGetCumulativePercentages {
 	        fail("An error occurred: " + e.getMessage());
 	    }
     }
+    
+  //Test 04 Single Entry with Mixed value is Not applicable 
    
     @Test
     public void Test05SingleEntryEmpty() {
@@ -152,5 +152,6 @@ public class TestGetCumulativePercentages {
 	        fail("An error occurred: " + e.getMessage());
 	    }
     } 
+    //Test 010 Multiple Entries	with empty value is not applicable 
 
 }

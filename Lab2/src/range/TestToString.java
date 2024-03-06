@@ -86,7 +86,7 @@ public class TestToString {
     @Test
     public void test06LowerZeroUpperNegative() {
         try {
-            Range r1 = new Range(0.0, -5.0);
+          Range r1 = new Range(0.0, -5.0);
             fail("Expected an error to be thrown");
         } catch (IllegalArgumentException e) {
             String expectedMessage = "Range(double, double): require lower (0.0) <= upper (-5.0)";

@@ -1,9 +1,6 @@
 package range;
 
 import static org.junit.Assert.*;
-
-import javax.management.loading.PrivateClassLoader;
-
 import org.jfree.data.Range;
 import org.junit.After;
 import org.junit.AfterClass;
