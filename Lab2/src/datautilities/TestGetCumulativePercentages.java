@@ -14,11 +14,6 @@ public class TestGetCumulativePercentages {
 		 data = new DefaultKeyedValues();
 	}
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-	
     @Test
     public void Test01SingleEntryPositveValue() {
 	    try {
